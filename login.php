@@ -121,9 +121,9 @@ else {
   $l=$_POST['login'];
   $p=md5($_POST['pass']);
 
-  $user = 'u47646';
-  $pass = '1856207';
-  $db = new PDO('mysql:host=localhost;dbname=u47646', $user, $pass, array(PDO::ATTR_PERSISTENT => true));
+  $user = 'u47647';
+  $pass = '1864476';
+  $db = new PDO('mysql:host=localhost;dbname=u47647', $user, $pass, array(PDO::ATTR_PERSISTENT => true));
 
   $sel = $db->query("SELECT login FROM baza WHERE login = $l");
     foreach($sel as $el)
